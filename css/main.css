@@ -110,8 +110,13 @@ a:visited { color: #a0a; }
 }
 
 .footer .contact {
-  float: left;
-  margin-right: 3em;
+    float: left;
+    margin-right: 3em;
+}
+
+.footer .links {
+    float: right;
+    margin-left: 3em;
 }
 
 .footer .contact a {

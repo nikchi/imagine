@@ -19,6 +19,12 @@ body {
   text-align: center;
 }
 
+footer {
+    position:fixed;
+    bottom:0;
+    width:inherit;
+}
+
 h1, h2, h3, h4, h5, h6 {
   font-size: 100%; }
 

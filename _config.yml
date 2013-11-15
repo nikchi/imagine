@@ -1,3 +1,6 @@
 name: LoudTiger
 markdown: redcarpet
 pygments: true
+ftp_host: loudtiger.com
+ftp_dir: /public_html/blog
+ftp_passive: false

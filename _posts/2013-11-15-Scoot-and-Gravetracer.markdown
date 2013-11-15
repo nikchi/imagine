@@ -8,8 +8,8 @@ categories: Post
 
 ##New Subdomains!##
 
-[Scoots's site](scoot.loudtiger.com) \#Cooliest
+[Scoots's site](http://scoot.loudtiger.com) \#Cooliest
 
-[GraveTracers's site](gravetracer.loudtiger.com) He needs an index.
+[GraveTracers's site](http://gravetracer.loudtiger.com) He needs an index.
 
     Thats pretty much it for now. Seeya. 

@@ -14,8 +14,8 @@ html, body { height: 100%; }
 
 body {
   background-color: #FFF;
-  font: 13.34px Helvetica, Arial, sans-serif;
-  font-size: 12px;
+  font: 13.34px Helvetica;
+  font-size: 13px; /* Wow changing this changes like the whole damn site size */
   text-align: center;
 }
 
@@ -37,7 +37,7 @@ h1 { margin-bottom: 1em; }
 p { margin: 1em 0; }
 
 a         { color: #00a; }
-a:hover   { color: #000; }
+a:hover, a:visited:hover   { color: #000; }
 a:visited { color: #a0a; }
 
 /*****************************************************************************/
@@ -73,10 +73,12 @@ a:visited { color: #a0a; }
   margin: 3em auto 2em;
   line-height: 1.5em;
 }
+
 .header {
     border-bottom: 4px solid #eee;
     margin-bottom: 1em;
 }
+
 .header a {
   font-weight: bold;
   text-decoration: none;
@@ -84,25 +86,27 @@ a:visited { color: #a0a; }
 
 .title {
   font-size: 3em;
-  display: inline-block;
-  /*margin-bottom: 2em;*/
+  display: inline-block;       
 }
 
-.title a {
+.title a.big {
   color: #FFA000;
+    opacity: .5;
+    transition: opacity 0.4s ease;
 }
 
-.title a:hover {
-  color: #7F5000;
+.title a.big:hover {
+  opacity: 1;
 }
-
 .header a.extra {
   color: #40D1FF;
   margin-left: 1em;
+    opacity: .5;
+    transition: opacity 0.4s ease;
 }
 
 .header a.extra:hover {
-  color: #46727F;
+  opacity: 1;
 }
 
 .meta {
@@ -110,7 +114,7 @@ a:visited { color: #a0a; }
 }
 
 .footer {
-  font-size: 80%;
+  font-size: 100%;
   color: #666;
   border-top: 4px solid #eee;
   margin-top: 2em;
@@ -123,6 +127,7 @@ a:visited { color: #a0a; }
 }
 
 .footer .links {
+    text-align: right;
     float: right;
     margin-left: 3em;
 }
@@ -181,7 +186,11 @@ a:visited { color: #a0a; }
 
 #desc {
     font-size: 90%;
-    opacity: 20%;
+    opacity: 40%;
     color: #999;
     float: right;
+}
+
+.ad {
+    vertical-align: bottom;
 }

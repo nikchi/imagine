@@ -1,0 +1,15 @@
+---
+layout: post
+title:  "Well now."
+description: "New job, and whatsit."
+date:   2014-1-16 00:00:00
+categories: Post 
+---
+
+##New Job##
+So new coop job, which means I'm not in school for now, which means this sort sucks. It just so happens that the situation I'm in means that I have no other computer science classes for well, until spring of next year. What do I do now? Obviously gonna have to learn on my own. What do i want to learn? 
+
+My goal right now is to get some sort of reactive website up. Which I sort of have. Using CSS hover tags. Buuuuuuut, I want something better. Something like web pages in theVerge.com reviews. So I'm going to try to learn SASS/SCSS, Canvas, and javascript. 
+
+    ok so that it for now i guess.
+

@@ -10,13 +10,16 @@
   padding: 0;
 }
 
-html, body { height: 100%; }
+html, body { 
+    height: 100%; 
+}
 
 body {
   background-color: #FFF;
   font: 13.34px Helvetica;
   font-size: 13px; /* Wow changing this changes like the whole damn site size */
   text-align: center;
+    margin-bottom:-5em;
 }
 
 header {
@@ -113,8 +116,13 @@ a:visited { color: #a0a; }
   color: #7F2D00;
 }
 
+.push{
+    height: 5em;
+}
+
 .footer {
   font-size: 100%;
+  background-color:white;
   color: #666;
   border-top: 4px solid #eee;
   margin-top: 2em;
